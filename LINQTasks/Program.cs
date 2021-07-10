@@ -17,6 +17,13 @@ namespace LINQTasks
             
             Console.WriteLine(SquareSequenceTest.TestForSquares(numbers,squares));
             Console.WriteLine(SquareSequenceTest.TestForSquares(numbers1,squares1));
+
+            IEnumerable<string> words = new List<string> { "one", "two", "three", "four" };
+            IEnumerable<string> words1 = new List<string> {"hop,top,stop,cop,lop,chop"};
+            Console.WriteLine(GettingLastWord.GetTheLastWord(words));
+            Console.WriteLine(GettingLastWord.GetTheLastWord(words1));
+
+            
         }
     }
 }
