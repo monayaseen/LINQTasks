@@ -23,7 +23,7 @@ namespace LINQTasks
             Console.WriteLine(GettingLastWord.GetTheLastWord(words));
             Console.WriteLine(GettingLastWord.GetTheLastWord(words1));
 
-            
+             
         }
     }
 }
