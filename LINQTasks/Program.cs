@@ -9,6 +9,7 @@ namespace LINQTasks
         {
             Console.WriteLine("Hello World!");
             
+            
             IEnumerable<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
             IEnumerable<int> squares = new List<int> { 1, 4, 9, 16, 25 };
             
